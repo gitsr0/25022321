@@ -825,7 +825,7 @@ for($i = 0; $i <= count($newurl)-2; $i++){
             </div>
          </section>
          <section id="packages" class="white section-packages">
-             <iframe src="<?=$url?>generic" style="width:100%; height: 100%" ></iframe>
+             <iframe src="<?=$url?>generic/" style="width:100%; height: 100%" ></iframe>
          </section> 
       </main>
       <!-- video lu cardlara basildiginda acilacak video modalları -->
