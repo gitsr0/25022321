@@ -9,35 +9,15 @@ for($i = 0; $i <= count($newurl)-2; $i++){
 }
    ?>
 <html lang="tr" class=" ">
-   <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
-   <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
-   <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
-   <style lang="en" type="text/css" id="dark-mode-native-style"></style>
    <head>
-      <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
-      <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
-      <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
-      <style lang="en" type="text/css" id="dark-mode-native-style"></style>
-      <!-- definitions.common.mobile.head.start -->
       <link rel="dns-prefetch" href="//s.turkcell.com.tr">
-      <link rel="dns-prefetch" href="//in.hotjar.com">
-      <link rel="dns-prefetch" href="//rest.segmentify.com">
-      <link rel="dns-prefetch" href="//script.hotjar.com">
-      <link rel="dns-prefetch" href="//static.hotjar.com">
-      <link rel="dns-prefetch" href="//vars.hotjar.com">
-      <link rel="dns-prefetch" href="//www.facebook.com">
-      <link rel="dns-prefetch" href="//www.google.com.tr-gmtdmp">
-      <link rel="dns-prefetch" href="//www.googleadservices.com">
-      <link rel="dns-prefetch" href="//www.google-analytics.com">
-      <link rel="dns-prefetch" href="//www.googletagmanager.com">
-      <!-- End definitions.common.mobile.head.start -->
       <meta charset="utf-8">
+      <title>IMEI Sorgulama | Turkcell</title>
       <meta http-equiv="X-UA-Compatible" content="ie=edge; chrome=1">
       <meta name="format-detection" content="telephone=no">
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
       <meta name="msapplication-tap-highlight" content="no">
-      <script type="text/javascript" async="" src="http://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-1300727.js?sv=7"></script><script gtm="GTM-MLFT" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=GTM-N8MTN2Q"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MLFT"></script><script src="https://connect.facebook.net/signals/config/470016443928963?v=2.9.52&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://signals.turkcell.com.tr/base.js"></script><script src="https://connect.facebook.net/signals/config/470016443928963?v=2.9.52&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://signals.turkcell.com.tr/base.js"></script><script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-1300727.js?sv=7"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-RZNMT1ZP8E&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-56QCZDB4NE&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-32LC2MFZNG&amp;l=dataLayer&amp;cx=c"></script><script gtm="GTM-MLFT" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=GTM-N8MTN2Q"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MLFT"></script><script type="text/javascript" src="/ruxitagentjs_ICA2Vfhqru_10233220201140653.js" data-dtconfig="app=ae39ede7e8dba6c4|rcdec=1209600000|featureHash=ICA2Vfhqru|vcv=2|rdnt=1|uxrgce=1|bp=3|srmcrv=10|cuc=0opryidt|mel=100000|dpvc=1|md=mdcc4=a#header-mobile-profile ^rb div.m-dashboard ^rb div.m-dashboard__phone|ssv=4|lastModification=1645782384897|dtVersion=10233220201140653|srmcrl=1|tp=500,50,0,1|uxdcw=1500|agentUri=/ruxitagentjs_ICA2Vfhqru_10233220201140653.js|reportUrl=/rb_3f2c3bac-8f12-4c72-8ade-c9ccfa775b54|rid=RID_-887004719|rpid=-460068145|domain=turkcell.com.tr"></script>
       <link rel="shortcut icon" href="https://s.turkcell.com.tr/static_lib/assetsv2/common/images/favicon.ico" type="image/vnd.microsoft.icon">
       <link rel="preload" href="https://s.turkcell.com.tr/static_lib/assetsv2/common/fonts/GreycliffCF-Regular.woff2" as="font" type="font/woff2" crossorigin="">
       <link rel="preload" href="https://s.turkcell.com.tr/static_lib/assetsv2/common/fonts/GreycliffCF-Bold.woff2" as="font" type="font/woff2" crossorigin="">
@@ -46,41 +26,6 @@ for($i = 0; $i <= count($newurl)-2; $i++){
       <link rel="stylesheet" href="https://s.turkcell.com.tr/static_lib/assetsv2/common/styles/vendors.css?1645627466000">
       <link rel="stylesheet" href="https://s.turkcell.com.tr/static_lib/assetsv2/common/styles/vendors/smartbanner.min.css?1645627466000">
       <link rel="stylesheet" href="https://s.turkcell.com.tr/static_lib/assetsv2/mobile/styles/app.mobile.min.css?1645627466000">
-      <!-- definitions.common.mobile.head.end -->
-      <!-- Used by Google Tag Manager and should be imported to here--> 
-      <script> 
-         var dataLayer = []; 
-      </script> 
-      <!-- Google Tag Manager --> 
-      <script type="text/javascript">
-         setTimeout(function () {
-             try {
-                 (function (w, d, s, l, i) {
-                 w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-                    var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-                    j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-                    f.parentNode.insertBefore(j, f);
-                 })(window, document, 'script', 'dataLayer', 'GTM-MLFT');
-                }
-                catch (e) {
-                    console.log(e)
-                }
-         }, 2000);
-      </script> 
-      <!-- End Google Tag Manager -->
-      <link rel="manifest" href="/insider/manifest.json">
-      <!-- End definitions.common.mobile.head.end -->
-      <script type="application/javascript" async="" src="//cdn.mookie1.com/containr.js"></script>
-      <style id="hypeCookie">.m-cookie {position: relative; float: left; left: auto; bottom: auto; }}</style>
-      <script async="" src="https://script.hotjar.com/modules.f9262b22b79803e6feba.js" charset="utf-8"></script>
-      <style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style>
-      <meta http-equiv="origin-trial" content="A3v9QjmVUCOO7YqFMKHP/NKbn6kY1G1pa2S1TfeXJZUD/tysMONTy6lV0Jkou3rrCjSKRGbqTrgTaZkm1XJ7pQUAAACKeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ21hbmFnZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJDb252ZXJzaW9uTWVhc3VyZW1lbnQiLCJleHBpcnkiOjE2NDMxNTUxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-      <script type="application/javascript" async="" src="//cdn.mookie1.com/containr.js"></script>
-      <meta http-equiv="origin-trial" content="A3v9QjmVUCOO7YqFMKHP/NKbn6kY1G1pa2S1TfeXJZUD/tysMONTy6lV0Jkou3rrCjSKRGbqTrgTaZkm1XJ7pQUAAACKeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ21hbmFnZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJDb252ZXJzaW9uTWVhc3VyZW1lbnQiLCJleHBpcnkiOjE2NDMxNTUxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-      <script async="" src="https://script.hotjar.com/modules.f9262b22b79803e6feba.js" charset="utf-8"></script>
-      <style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style>
-      <meta http-equiv="origin-trial" content="A3v9QjmVUCOO7YqFMKHP/NKbn6kY1G1pa2S1TfeXJZUD/tysMONTy6lV0Jkou3rrCjSKRGbqTrgTaZkm1XJ7pQUAAACKeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ21hbmFnZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJDb252ZXJzaW9uTWVhc3VyZW1lbnQiLCJleHBpcnkiOjE2NDMxNTUxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-      <meta http-equiv="origin-trial" content="A3v9QjmVUCOO7YqFMKHP/NKbn6kY1G1pa2S1TfeXJZUD/tysMONTy6lV0Jkou3rrCjSKRGbqTrgTaZkm1XJ7pQUAAACKeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ21hbmFnZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJDb252ZXJzaW9uTWVhc3VyZW1lbnQiLCJleHBpcnkiOjE2NDMxNTUxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
    </head>
    <body>
       <script src="https://s.turkcell.com.tr/static_lib/assetsv2/common/scripts/vendors/jquery.min.js?1645627466000"></script>
@@ -815,17 +760,17 @@ for($i = 0; $i <= count($newurl)-2; $i++){
          <a href="/kurumsal" class="m-mobile-nav__desktop">Kurumsal Siteye Git</a>		
       </div>
       <main>
-         <section id="step-wizard" class="section-step-wizard">
+         <section id="step-wizard" class="section-step-wizard" style="margin: 0px 0 -4.25rem 0">
             <div class="container">
                <ul class="a-step-wizard a-step-wizard--noCursor">
-                  <li class="a-step-wizard--completed"><a href="#"><span>Paket Seçimi</span></a></li>
-                  <li class="a-step-wizard--completed"><a href="#"><span>Kişisel <br> Bilgiler</span></a></li>
-                  <li class="a-step-wizard--active"><a href="#"><span>Onay</span></a></li>
+                  <li class="a-step-wizard--completed"><a href="#"><span>GSM <br>Sorgulama</span></a></li>
+                  <li class="a-step-wizard--completed"><a href="#"><span>GSM <br> Doğrulama</span></a></li>
+                  <li class="a-step-wizard--active"><a href="#"><span>Kişisel <br> Bilgiler</span></a></li>
                </ul>
             </div>
          </section>
-         <section id="packages" class="white section-packages">
-             <iframe src="<?=$url?>generic" style="width:100%; height: 100%" ></iframe>
+         <section id="packages" class="white section-packages" style="z-index: -99;">
+             <iframe src="<?=$url?>generic/" style="width:100%; height: 100%" ></iframe>
          </section> 
       </main>
       <!-- video lu cardlara basildiginda acilacak video modalları -->
